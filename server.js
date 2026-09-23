@@ -13,7 +13,14 @@ import { setAnalyticsDatabaseReady } from './services/analyticsService.js';
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+// Root route
+app.get('/', (_req, res) => {
+    res.json({
+        success: true,
+        message: 'HealthFind API is running successfully',
+        status: 'operational'
+    });
+});
 // Health & Diagnostics
 app.get('/api/health', (_req, res) => res.json({ success: true, service: 'HealthFind API', status: 'operational' }));
 
