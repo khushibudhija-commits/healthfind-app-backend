@@ -40,4 +40,6 @@ const port = process.env.PORT || 5000;
 const databaseReady = await connectDatabase();
 setDatabaseReady(databaseReady);
 setAnalyticsDatabaseReady(databaseReady);
-app.listen(port, () => console.log(`HealthFind API running at http://localhost:${port}`));
+app.listen(port, "0.0.0.0", () => {
+    console.log(`HealthFind API running on port ${port}`);
+});
