@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import dns from 'node:dns';
 import express from 'express';
 import cors from 'cors';
 import { connectDatabase } from './database/connection.js';
@@ -11,7 +12,6 @@ import { listFacilities, listTreatments } from './controllers/hospitalController
 import { setAnalyticsDatabaseReady } from './services/analyticsService.js';
 
 
-dotenv.config();
 dns.setServers(['8.8.8.8','1.1.1.1']);
 
 const app = express();
