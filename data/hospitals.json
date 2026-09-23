@@ -1,0 +1,217 @@
+[
+    {
+        "name": "Civil Hospital Hoshiarpur",
+        "type": "Government",
+        "address": "Court Road",
+        "city": "Hoshiarpur",
+        "district": "Hoshiarpur",
+        "state": "Punjab",
+        "phone": "+91 1882 222001",
+        "receptionPhone": "+91 1882 222002",
+        "facilities": [
+            "Emergency",
+            "ICU",
+            "MRI",
+            "Blood Bank",
+            "Pharmacy",
+            "Ambulance"
+        ],
+        "treatments": [
+            {
+                "name": "Knee Replacement",
+                "category": "Orthopaedics",
+                "estimatedCost": {
+                    "min": 30000,
+                    "max": 50000
+                },
+                "outcomeRate": 92.5
+            },
+            {
+                "name": "Fracture Treatment",
+                "category": "Orthopaedics",
+                "estimatedCost": {
+                    "min": 10000,
+                    "max": 30000
+                },
+                "outcomeRate": 94
+            }
+        ],
+        "doctorAvailability": [
+            { "day": "Monday", "departments": ["Orthopaedics", "General Medicine"], "timing": "09:00-13:00" },
+            { "day": "Wednesday", "departments": ["Orthopaedics", "Emergency"], "timing": "09:00-13:00" },
+            { "day": "Friday", "departments": ["General Medicine"], "timing": "09:00-13:00" }
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                75.9115,
+                31.5143
+            ]
+        }
+    },
+    {
+        "name": "DMC Heart Institute",
+        "type": "Private",
+        "address": "Tagore Nagar",
+        "city": "Ludhiana",
+        "district": "Ludhiana",
+        "state": "Punjab",
+        "phone": "+91 161 2115000",
+        "receptionPhone": "+91 161 2115001",
+        "website": "https://example.com/dmc",
+        "facilities": [
+            "Emergency",
+            "ICU",
+            "MRI",
+            "CT Scan",
+            "Pharmacy",
+            "Ambulance"
+        ],
+        "treatments": [
+            {
+                "name": "Heart Surgery",
+                "category": "Cardiology",
+                "estimatedCost": {
+                    "min": 180000,
+                    "max": 350000
+                },
+                "outcomeRate": 90.2
+            },
+            {
+                "name": "Knee Replacement",
+                "category": "Orthopaedics",
+                "estimatedCost": {
+                    "min": 85000,
+                    "max": 140000
+                },
+                "outcomeRate": 93.1
+            }
+        ],
+        "doctorAvailability": [
+            { "day": "Monday", "departments": ["Cardiology"], "timing": "10:00-16:00" },
+            { "day": "Tuesday", "departments": ["Cardiology", "Cardiac Surgery"], "timing": "10:00-16:00" },
+            { "day": "Thursday", "departments": ["Orthopaedics"], "timing": "11:00-15:00" }
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                75.8429,
+                30.9010
+            ]
+        }
+    },
+    {
+        "name": "Guru Nanak Eye Centre",
+        "type": "Trust/Charitable",
+        "address": "Model Town",
+        "city": "Jalandhar",
+        "district": "Jalandhar",
+        "state": "Punjab",
+        "phone": "+91 181 2457000",
+        "receptionPhone": "+91 181 2457001",
+        "facilities": [
+            "Emergency",
+            "Pharmacy",
+            "Blood Bank"
+        ],
+        "treatments": [
+            {
+                "name": "Cataract Surgery",
+                "category": "Ophthalmology",
+                "estimatedCost": {
+                    "min": 12000,
+                    "max": 30000
+                },
+                "outcomeRate": 95.4
+            }
+        ],
+        "doctorAvailability": [
+            { "day": "Monday", "departments": ["Ophthalmology"], "timing": "09:00-14:00" },
+            { "day": "Wednesday", "departments": ["Ophthalmology"], "timing": "09:00-14:00" },
+            { "day": "Saturday", "departments": ["Ophthalmology"], "timing": "09:00-12:00" }
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                75.5762,
+                31.3260
+            ]
+        }
+    },
+    {
+        "name": "Fortis Mohali",
+        "type": "Private",
+        "address": "Phase 8",
+        "city": "Mohali",
+        "district": "SAS Nagar",
+        "state": "Punjab",
+        "phone": "+91 172 4692222",
+        "receptionPhone": "+91 172 4692223",
+        "facilities": [
+            "Emergency",
+            "ICU",
+            "MRI",
+            "CT Scan",
+            "Blood Bank",
+            "Ambulance"
+        ],
+        "treatments": [
+            {
+                "name": "Gallbladder Surgery",
+                "category": "General Surgery",
+                "estimatedCost": {
+                    "min": 70000,
+                    "max": 120000
+                },
+                "outcomeRate": 91.8
+            },
+            {
+                "name": "Chest Treatment",
+                "category": "Pulmonology",
+                "estimatedCost": {
+                    "min": 25000,
+                    "max": 80000
+                },
+                "outcomeRate": 89.7
+            }
+        ],
+        "doctorAvailability": [
+            { "day": "Tuesday", "departments": ["General Surgery", "Pulmonology"], "timing": "10:00-16:00" },
+            { "day": "Thursday", "departments": ["Pulmonology"], "timing": "10:00-14:00" },
+            { "day": "Saturday", "departments": ["General Surgery"], "timing": "09:00-13:00" }
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                76.7179,
+                30.7046
+            ]
+        }
+    },
+    {"name":"Rajindra Hospital Patiala","type":"Government","address":"Sangrur Road","city":"Patiala","district":"Patiala","state":"Punjab","phone":"+91 175 2212015","receptionPhone":"+91 175 2212016","facilities":["Emergency","ICU","CT Scan","Blood Bank","Pharmacy"],"treatments":[{"name":"Diabetes Management","category":"Endocrinology","estimatedCost":{"min":5000,"max":15000},"outcomeRate":90.5},{"name":"Kidney Stone Treatment","category":"Urology","estimatedCost":{"min":20000,"max":60000},"outcomeRate":91}],"doctorAvailability":[{"day":"Monday","departments":["Endocrinology","Urology"],"timing":"09:00-13:00"},{"day":"Wednesday","departments":["Urology"],"timing":"09:00-13:00"},{"day":"Friday","departments":["Endocrinology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[76.3869,30.3398]}},
+    {"name":"Max Super Speciality Hospital Bathinda","type":"Private","address":"Mansa Road","city":"Bathinda","district":"Bathinda","state":"Punjab","phone":"+91 164 5210000","receptionPhone":"+91 164 5210001","facilities":["Emergency","ICU","MRI","CT Scan","Pharmacy","Ambulance"],"treatments":[{"name":"Stroke Rehabilitation","category":"Neurology","estimatedCost":{"min":45000,"max":120000},"outcomeRate":87.6},{"name":"Spine Surgery","category":"Neurosurgery","estimatedCost":{"min":150000,"max":300000},"outcomeRate":90.1}],"doctorAvailability":[{"day":"Monday","departments":["Neurology"],"timing":"10:00-15:00"},{"day":"Wednesday","departments":["Neurosurgery"],"timing":"10:00-15:00"},{"day":"Friday","departments":["Neurology","Physiotherapy"],"timing":"10:00-15:00"}],"location":{"type":"Point","coordinates":[74.9455,30.2102]}},
+    {"name":"Amandeep Hospital Amritsar","type":"Private","address":"GT Road","city":"Amritsar","district":"Amritsar","state":"Punjab","phone":"+91 183 5050000","receptionPhone":"+91 183 5050001","facilities":["Emergency","ICU","MRI","CT Scan","Pharmacy","Ambulance"],"treatments":[{"name":"Cancer Chemotherapy","category":"Oncology","estimatedCost":{"min":50000,"max":250000},"outcomeRate":88.9},{"name":"Breast Cancer Surgery","category":"Oncology","estimatedCost":{"min":120000,"max":250000},"outcomeRate":89.5}],"doctorAvailability":[{"day":"Tuesday","departments":["Medical Oncology"],"timing":"09:00-15:00"},{"day":"Thursday","departments":["Surgical Oncology"],"timing":"09:00-15:00"},{"day":"Saturday","departments":["Oncology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[74.8723,31.634]}},
+    {"name":"Civil Hospital Gurdaspur","type":"Government","address":"Dinanagar Road","city":"Gurdaspur","district":"Gurdaspur","state":"Punjab","phone":"+91 1874 240100","receptionPhone":"+91 1874 240101","facilities":["Emergency","Pharmacy","Blood Bank","Ambulance"],"treatments":[{"name":"Asthma Treatment","category":"Pulmonology","estimatedCost":{"min":3000,"max":12000},"outcomeRate":91.2}],"doctorAvailability":[{"day":"Monday","departments":["Pulmonology"],"timing":"09:00-13:00"},{"day":"Thursday","departments":["General Medicine"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[75.4018,32.0419]}},
+    {"name":"SPS Hospitals Ludhiana","type":"Private","address":"Sherpur Chowk","city":"Ludhiana","district":"Ludhiana","state":"Punjab","phone":"+91 161 6617111","receptionPhone":"+91 161 6617112","facilities":["Emergency","ICU","MRI","CT Scan","Blood Bank","Ambulance"],"treatments":[{"name":"Liver Transplant Evaluation","category":"Gastroenterology","estimatedCost":{"min":50000,"max":150000},"outcomeRate":86.8},{"name":"Hernia Repair","category":"General Surgery","estimatedCost":{"min":40000,"max":90000},"outcomeRate":93.2}],"doctorAvailability":[{"day":"Monday","departments":["Gastroenterology"],"timing":"10:00-16:00"},{"day":"Wednesday","departments":["General Surgery"],"timing":"10:00-16:00"},{"day":"Friday","departments":["Gastroenterology"],"timing":"10:00-14:00"}],"location":{"type":"Point","coordinates":[75.8577,30.887]}},
+    {"name":"SGL Charitable Hospital Jalandhar","type":"Trust/Charitable","address":"Garha Road","city":"Jalandhar","district":"Jalandhar","state":"Punjab","phone":"+91 181 4600700","receptionPhone":"+91 181 4600701","facilities":["Emergency","ICU","Pharmacy","Dialysis"],"treatments":[{"name":"Dialysis","category":"Nephrology","estimatedCost":{"min":1500,"max":5000},"outcomeRate":92.1},{"name":"Kidney Disease Consultation","category":"Nephrology","estimatedCost":{"min":500,"max":2000},"outcomeRate":94}],"doctorAvailability":[{"day":"Tuesday","departments":["Nephrology"],"timing":"09:00-13:00"},{"day":"Thursday","departments":["Nephrology"],"timing":"09:00-13:00"},{"day":"Saturday","departments":["Nephrology"],"timing":"09:00-12:00"}],"location":{"type":"Point","coordinates":[75.5817,31.295]}},
+    {"name":"Ivy Hospital Khanna","type":"Private","address":"GT Road","city":"Khanna","district":"Ludhiana","state":"Punjab","phone":"+91 1628 501000","receptionPhone":"+91 1628 501001","facilities":["Emergency","ICU","CT Scan","Pharmacy"],"treatments":[{"name":"Appendix Surgery","category":"General Surgery","estimatedCost":{"min":35000,"max":70000},"outcomeRate":93.4}],"doctorAvailability":[{"day":"Monday","departments":["General Surgery"],"timing":"10:00-14:00"},{"day":"Wednesday","departments":["General Surgery"],"timing":"10:00-14:00"}],"location":{"type":"Point","coordinates":[76.2219,30.704]}},
+    {"name":"Gian Sagar Hospital Rajpura","type":"Private","address":"Ram Nagar","city":"Rajpura","district":"Patiala","state":"Punjab","phone":"+91 1762 232000","receptionPhone":"+91 1762 232001","facilities":["Emergency","ICU","MRI","Pharmacy","Ambulance"],"treatments":[{"name":"Joint Replacement","category":"Orthopaedics","estimatedCost":{"min":80000,"max":180000},"outcomeRate":92.7},{"name":"Sports Injury Treatment","category":"Orthopaedics","estimatedCost":{"min":15000,"max":60000},"outcomeRate":94.1}],"doctorAvailability":[{"day":"Tuesday","departments":["Orthopaedics"],"timing":"09:00-15:00"},{"day":"Thursday","departments":["Orthopaedics"],"timing":"09:00-15:00"},{"day":"Saturday","departments":["Physiotherapy"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[76.5926,30.478]}},
+    {"name":"Mohandai Oswal Cancer Hospital","type":"Trust/Charitable","address":"Grand Trunk Road","city":"Ludhiana","district":"Ludhiana","state":"Punjab","phone":"+91 161 2454282","receptionPhone":"+91 161 2454283","facilities":["Emergency","ICU","Radiotherapy","Pharmacy","Blood Bank"],"treatments":[{"name":"Radiation Therapy","category":"Oncology","estimatedCost":{"min":60000,"max":180000},"outcomeRate":87.9},{"name":"Leukaemia Treatment","category":"Haematology","estimatedCost":{"min":100000,"max":350000},"outcomeRate":84.5}],"doctorAvailability":[{"day":"Monday","departments":["Radiation Oncology"],"timing":"09:00-15:00"},{"day":"Wednesday","departments":["Medical Oncology"],"timing":"09:00-15:00"},{"day":"Friday","departments":["Haematology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[75.8573,30.9245]}},
+    {"name":"Sri Guru Ram Das Medical Institute","type":"Government","address":"Vallah Road","city":"Amritsar","district":"Amritsar","state":"Punjab","phone":"+91 183 2421000","receptionPhone":"+91 183 2421001","facilities":["Emergency","ICU","MRI","CT Scan","Blood Bank","Ambulance"],"treatments":[{"name":"Neurosurgery","category":"Neurosurgery","estimatedCost":{"min":50000,"max":180000},"outcomeRate":88.2},{"name":"Pediatric Care","category":"Pediatrics","estimatedCost":{"min":3000,"max":25000},"outcomeRate":93.6}],"doctorAvailability":[{"day":"Tuesday","departments":["Neurosurgery"],"timing":"09:00-14:00"},{"day":"Thursday","departments":["Pediatrics"],"timing":"09:00-14:00"},{"day":"Saturday","departments":["Neurosurgery","Pediatrics"],"timing":"09:00-12:00"}],"location":{"type":"Point","coordinates":[74.835,31.637]}},
+    {"name":"Healing Hospital Chandigarh","type":"Private","address":"Sector 34","city":"Chandigarh","district":"Chandigarh","state":"Chandigarh","phone":"+91 172 4011111","receptionPhone":"+91 172 4011112","facilities":["Emergency","ICU","MRI","CT Scan","Pharmacy"],"treatments":[{"name":"Skin Allergy Treatment","category":"Dermatology","estimatedCost":{"min":2000,"max":15000},"outcomeRate":94.2},{"name":"Cosmetic Dermatology","category":"Dermatology","estimatedCost":{"min":10000,"max":50000},"outcomeRate":91.5}],"doctorAvailability":[{"day":"Monday","departments":["Dermatology"],"timing":"11:00-17:00"},{"day":"Wednesday","departments":["Dermatology"],"timing":"11:00-17:00"},{"day":"Friday","departments":["Dermatology"],"timing":"11:00-15:00"}],"location":{"type":"Point","coordinates":[76.7794,30.7333]}},
+    {"name":"Government Multi-Specialty Hospital Chandigarh","type":"Government","address":"Sector 16","city":"Chandigarh","district":"Chandigarh","state":"Chandigarh","phone":"+91 172 2752000","receptionPhone":"+91 172 2752001","facilities":["Emergency","ICU","MRI","CT Scan","Blood Bank","Pharmacy"],"treatments":[{"name":"Child Vaccination","category":"Pediatrics","estimatedCost":{"min":0,"max":3000},"outcomeRate":98},{"name":"Maternal Care","category":"Gynaecology","estimatedCost":{"min":5000,"max":40000},"outcomeRate":95.1}],"doctorAvailability":[{"day":"Monday","departments":["Pediatrics","Gynaecology"],"timing":"09:00-13:00"},{"day":"Wednesday","departments":["Pediatrics"],"timing":"09:00-13:00"},{"day":"Friday","departments":["Gynaecology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[76.7936,30.759]}},
+    {"name":"Cosmo Hospital Zirakpur","type":"Private","address":"Ambala Road","city":"Zirakpur","district":"SAS Nagar","state":"Punjab","phone":"+91 1762 510000","receptionPhone":"+91 1762 510001","facilities":["Emergency","ICU","MRI","Pharmacy","Ambulance"],"treatments":[{"name":"Normal Delivery","category":"Gynaecology","estimatedCost":{"min":25000,"max":60000},"outcomeRate":96.2},{"name":"Infertility Consultation","category":"Reproductive Medicine","estimatedCost":{"min":3000,"max":25000},"outcomeRate":89.8}],"doctorAvailability":[{"day":"Tuesday","departments":["Gynaecology"],"timing":"10:00-16:00"},{"day":"Thursday","departments":["Reproductive Medicine"],"timing":"10:00-16:00"},{"day":"Saturday","departments":["Gynaecology"],"timing":"10:00-14:00"}],"location":{"type":"Point","coordinates":[76.8173,30.6425]}},
+    {"name":"Ludhiana Gastro and Liver Centre","type":"Private","address":"Ferozepur Road","city":"Ludhiana","district":"Ludhiana","state":"Punjab","phone":"+91 161 4688000","receptionPhone":"+91 161 4688001","facilities":["Emergency","ICU","Endoscopy","Pharmacy"],"treatments":[{"name":"Endoscopy","category":"Gastroenterology","estimatedCost":{"min":5000,"max":15000},"outcomeRate":95.3},{"name":"Ulcer Treatment","category":"Gastroenterology","estimatedCost":{"min":5000,"max":25000},"outcomeRate":93.8}],"doctorAvailability":[{"day":"Monday","departments":["Gastroenterology"],"timing":"09:00-15:00"},{"day":"Wednesday","departments":["Gastroenterology"],"timing":"09:00-15:00"},{"day":"Friday","departments":["Gastroenterology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[75.831,30.883]}},
+    {"name":"Baba Farid University Hospital","type":"Government","address":"Sadiq Road","city":"Faridkot","district":"Faridkot","state":"Punjab","phone":"+91 1639 250100","receptionPhone":"+91 1639 250101","facilities":["Emergency","ICU","MRI","CT Scan","Blood Bank","Pharmacy"],"treatments":[{"name":"Tuberculosis Treatment","category":"Infectious Disease","estimatedCost":{"min":1000,"max":15000},"outcomeRate":91.7},{"name":"General Medicine","category":"General Medicine","estimatedCost":{"min":500,"max":5000},"outcomeRate":94.3}],"doctorAvailability":[{"day":"Monday","departments":["Infectious Disease"],"timing":"09:00-13:00"},{"day":"Thursday","departments":["General Medicine"],"timing":"09:00-13:00"},{"day":"Saturday","departments":["Infectious Disease"],"timing":"09:00-12:00"}],"location":{"type":"Point","coordinates":[74.7555,30.6768]}},
+    {"name":"Akal Eye Hospital Muktsar","type":"Trust/Charitable","address":"Kotkapura Road","city":"Sri Muktsar Sahib","district":"Sri Muktsar Sahib","state":"Punjab","phone":"+91 1633 260500","receptionPhone":"+91 1633 260501","facilities":["Emergency","Pharmacy","Optical Store"],"treatments":[{"name":"Glaucoma Treatment","category":"Ophthalmology","estimatedCost":{"min":8000,"max":35000},"outcomeRate":93.9},{"name":"LASIK Evaluation","category":"Ophthalmology","estimatedCost":{"min":1500,"max":5000},"outcomeRate":96.1}],"doctorAvailability":[{"day":"Tuesday","departments":["Ophthalmology"],"timing":"09:00-14:00"},{"day":"Thursday","departments":["Ophthalmology"],"timing":"09:00-14:00"}],"location":{"type":"Point","coordinates":[74.527,30.476]}},
+    {"name":"Patel Hospital Jalandhar","type":"Private","address":"Civil Lines","city":"Jalandhar","district":"Jalandhar","state":"Punjab","phone":"+91 181 5033333","receptionPhone":"+91 181 5033334","facilities":["Emergency","ICU","MRI","CT Scan","Pharmacy","Ambulance"],"treatments":[{"name":"Heart Bypass Surgery","category":"Cardiology","estimatedCost":{"min":200000,"max":400000},"outcomeRate":91.4},{"name":"Angioplasty","category":"Cardiology","estimatedCost":{"min":110000,"max":250000},"outcomeRate":92.2}],"doctorAvailability":[{"day":"Monday","departments":["Cardiology"],"timing":"10:00-16:00"},{"day":"Wednesday","departments":["Cardiology"],"timing":"10:00-16:00"},{"day":"Friday","departments":["Cardiology"],"timing":"10:00-14:00"}],"location":{"type":"Point","coordinates":[75.5762,31.326]}},
+    {"name":"I.V.Y. Hospital Nawanshahr","type":"Private","address":"Chandigarh Road","city":"Nawanshahr","district":"Shaheed Bhagat Singh Nagar","state":"Punjab","phone":"+91 1823 222000","receptionPhone":"+91 1823 222001","facilities":["Emergency","ICU","CT Scan","Pharmacy"],"treatments":[{"name":"Thyroid Treatment","category":"Endocrinology","estimatedCost":{"min":10000,"max":50000},"outcomeRate":92.8}],"doctorAvailability":[{"day":"Tuesday","departments":["Endocrinology"],"timing":"10:00-15:00"},{"day":"Friday","departments":["Endocrinology"],"timing":"10:00-15:00"}],"location":{"type":"Point","coordinates":[76.1176,31.124]}},
+    {"name":"Civil Hospital Kapurthala","type":"Government","address":"Kanjli Road","city":"Kapurthala","district":"Kapurthala","state":"Punjab","phone":"+91 1822 232100","receptionPhone":"+91 1822 232101","facilities":["Emergency","Pharmacy","Blood Bank","Ambulance"],"treatments":[{"name":"ENT Consultation","category":"ENT","estimatedCost":{"min":500,"max":5000},"outcomeRate":94.5},{"name":"Ear Infection Treatment","category":"ENT","estimatedCost":{"min":2000,"max":10000},"outcomeRate":95}],"doctorAvailability":[{"day":"Monday","departments":["ENT"],"timing":"09:00-13:00"},{"day":"Wednesday","departments":["ENT"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[75.3839,31.3802]}},
+    {"name":"Sohana Hospital Mohali","type":"Private","address":"Sohana Road","city":"Mohali","district":"SAS Nagar","state":"Punjab","phone":"+91 172 2222222","receptionPhone":"+91 172 2222223","facilities":["Emergency","ICU","MRI","CT Scan","Pharmacy","Ambulance"],"treatments":[{"name":"Bone Fracture Surgery","category":"Orthopaedics","estimatedCost":{"min":40000,"max":120000},"outcomeRate":93.3},{"name":"Arthritis Treatment","category":"Rheumatology","estimatedCost":{"min":5000,"max":30000},"outcomeRate":90.6}],"doctorAvailability":[{"day":"Tuesday","departments":["Orthopaedics"],"timing":"09:00-15:00"},{"day":"Thursday","departments":["Rheumatology"],"timing":"09:00-15:00"},{"day":"Saturday","departments":["Orthopaedics"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[76.697,30.678]}},
+    {"name":"Civil Hospital Moga","type":"Government","address":"GT Road","city":"Moga","district":"Moga","state":"Punjab","phone":"+91 1636 222100","receptionPhone":"+91 1636 222101","facilities":["Emergency","Pharmacy","Blood Bank"],"treatments":[{"name":"Hypertension Management","category":"Cardiology","estimatedCost":{"min":500,"max":5000},"outcomeRate":93.7}],"doctorAvailability":[{"day":"Monday","departments":["Cardiology","General Medicine"],"timing":"09:00-13:00"},{"day":"Thursday","departments":["Cardiology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[75.151,30.816]}},
+    {"name":"Apex Hospital Pathankot","type":"Private","address":"Dalhousie Road","city":"Pathankot","district":"Pathankot","state":"Punjab","phone":"+91 186 2222000","receptionPhone":"+91 186 2222001","facilities":["Emergency","ICU","MRI","Pharmacy","Ambulance"],"treatments":[{"name":"Migraine Treatment","category":"Neurology","estimatedCost":{"min":3000,"max":15000},"outcomeRate":92.9},{"name":"Epilepsy Consultation","category":"Neurology","estimatedCost":{"min":2000,"max":10000},"outcomeRate":91.8}],"doctorAvailability":[{"day":"Tuesday","departments":["Neurology"],"timing":"10:00-15:00"},{"day":"Friday","departments":["Neurology"],"timing":"10:00-15:00"}],"location":{"type":"Point","coordinates":[75.6545,32.2746]}},
+    {"name":"Sanjeevani Dental Hospital","type":"Private","address":"Mall Road","city":"Bathinda","district":"Bathinda","state":"Punjab","phone":"+91 164 2255000","receptionPhone":"+91 164 2255001","facilities":["Emergency","Pharmacy","Dental X-ray"],"treatments":[{"name":"Root Canal Treatment","category":"Dentistry","estimatedCost":{"min":3000,"max":12000},"outcomeRate":96.4},{"name":"Dental Implants","category":"Dentistry","estimatedCost":{"min":25000,"max":70000},"outcomeRate":94.8}],"doctorAvailability":[{"day":"Monday","departments":["Dentistry"],"timing":"10:00-18:00"},{"day":"Wednesday","departments":["Dentistry"],"timing":"10:00-18:00"},{"day":"Saturday","departments":["Dentistry"],"timing":"10:00-14:00"}],"location":{"type":"Point","coordinates":[74.945,30.211]}},
+    {"name":"Shri Ram Hospital Hoshiarpur","type":"Private","address":"Jalandhar Road","city":"Hoshiarpur","district":"Hoshiarpur","state":"Punjab","phone":"+91 1882 245000","receptionPhone":"+91 1882 245001","facilities":["Emergency","ICU","CT Scan","Pharmacy"],"treatments":[{"name":"Pneumonia Treatment","category":"Pulmonology","estimatedCost":{"min":10000,"max":50000},"outcomeRate":90.9},{"name":"Sleep Apnea Consultation","category":"Pulmonology","estimatedCost":{"min":3000,"max":12000},"outcomeRate":91.3}],"doctorAvailability":[{"day":"Monday","departments":["Pulmonology"],"timing":"10:00-15:00"},{"day":"Thursday","departments":["Pulmonology"],"timing":"10:00-15:00"}],"location":{"type":"Point","coordinates":[75.91,31.53]}},
+    {"name":"Noble Women and Child Hospital","type":"Private","address":"Model Town","city":"Patiala","district":"Patiala","state":"Punjab","phone":"+91 175 5011000","receptionPhone":"+91 175 5011001","facilities":["Emergency","ICU","Pharmacy","Ambulance"],"treatments":[{"name":"High-Risk Pregnancy Care","category":"Gynaecology","estimatedCost":{"min":30000,"max":100000},"outcomeRate":94.7},{"name":"Pediatric Asthma Care","category":"Pediatrics","estimatedCost":{"min":3000,"max":18000},"outcomeRate":93.1}],"doctorAvailability":[{"day":"Tuesday","departments":["Gynaecology"],"timing":"09:00-15:00"},{"day":"Thursday","departments":["Pediatrics"],"timing":"09:00-15:00"},{"day":"Saturday","departments":["Gynaecology","Pediatrics"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[76.395,30.335]}},
+    {"name":"LifeCare Kidney Institute","type":"Private","address":"GT Road","city":"Amritsar","district":"Amritsar","state":"Punjab","phone":"+91 183 5200000","receptionPhone":"+91 183 5200001","facilities":["Emergency","ICU","Dialysis","Pharmacy","Ambulance"],"treatments":[{"name":"Kidney Transplant Consultation","category":"Nephrology","estimatedCost":{"min":25000,"max":100000},"outcomeRate":88.6},{"name":"Dialysis Care","category":"Nephrology","estimatedCost":{"min":1800,"max":5500},"outcomeRate":93.5}],"doctorAvailability":[{"day":"Monday","departments":["Nephrology"],"timing":"09:00-16:00"},{"day":"Wednesday","departments":["Nephrology"],"timing":"09:00-16:00"},{"day":"Friday","departments":["Nephrology"],"timing":"09:00-13:00"}],"location":{"type":"Point","coordinates":[74.89,31.64]}}
+]

@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { getDrivingDistance, getHospital, listFacilities, listHospitals, listTreatments, nearbyHospitals } from '../controllers/hospitalController.js';
+const router = Router();
+router.get('/', listHospitals);
+router.get('/nearby', nearbyHospitals);
+router.get('/treatments', listTreatments);
+router.get('/facilities', listFacilities);
+router.get('/distance', getDrivingDistance);
+router.get('/:id', getHospital);
+export default router;
